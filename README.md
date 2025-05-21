@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Flutter E-Commerce App
 
@@ -129,3 +130,7 @@ This app was developed as part of a graduation project. Special thanks to all th
 ## 📬 License
 
 This project is licensed for educational and demonstration purposes.
+=======
+# E-Commerce-Mobile-Application
+A Flutter-Firebase e-commerce app with user, seller, and admin roles. Includes chatbot support (Dialogflow) and ML-based product recommendations. Secure, scalable, and user-friendly.
+>>>>>>> 4ca18eacfd2193024e06a48d5aaa9f72d4b3b10c
