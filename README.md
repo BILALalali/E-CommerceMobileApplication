@@ -112,24 +112,6 @@ lib/
    ```bash
    flutter run
    ```
-
----
-
-## 🧾 Credits
-
-This app was developed as part of a graduation project. Special thanks to all the contributors and tools used during the development process.
-
----
-
-## 📷 Screenshots
-
-> Add your actual screenshots to `assets/screenshots/` and update image paths above.
-
----
-
-## 📬 License
-
-This project is licensed for educational and demonstration purposes.
 =======
 # E-Commerce-Mobile-Application
 A Flutter-Firebase e-commerce app with user, seller, and admin roles. Includes chatbot support (Dialogflow) and ML-based product recommendations. Secure, scalable, and user-friendly.
