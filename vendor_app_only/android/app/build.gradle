@@ -1,0 +1,57 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+    id "dev.flutter.flutter-gradle-plugin"
+    id 'com.google.gms.google-services' // إضافة الـ plugin الخاص بـ Google services
+}
+
+android {
+    namespace = "com.example.vendor_app_only"
+    compileSdk = flutter.compileSdkVersion
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        // تأكد من أن التطبيق لديه معرف فريد (Application ID)
+        applicationId = "com.bm.vendor_app_only"
+        minSdk = 23 // يمكن تعديلها حسب متطلباتك
+        targetSdk = flutter.targetSdkVersion
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
+    }
+
+    buildTypes {
+        release {
+            // تأكد من إضافة إعدادات التوقيع الخاصة بك هنا
+            signingConfig = signingConfigs.debug // قم بتغيير هذا إلى التوقيع الفعلي في الإنتاج
+        }
+    }
+}
+
+dependencies {
+    // Firebase BoM (Bill of Materials) to manage the versions of Firebase dependencies
+    implementation platform('com.google.firebase:firebase-bom:33.5.1')
+
+    // التبعيات الخاصة بـ Firebase التي تحتاجها
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-firestore'
+
+    // إضافة منتجات Firebase أخرى حسب الحاجة
+    // implementation 'com.google.firebase:firebase-messaging'
+    // implementation 'com.google.firebase:firebase-analytics'
+}
+
+flutter {
+    source = "../.."
+}
+
+

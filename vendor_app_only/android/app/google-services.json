@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "819308907949",
+    "project_id": "esra-aacb1",
+    "storage_bucket": "esra-aacb1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819308907949:android:6cb53dcef231cf641fe524",
+        "android_client_info": {
+          "package_name": "com.bm.esra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819308907949-gk8h1po67l5480v5eue1df3d4qmf8qil.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bm.esra",
+            "certificate_hash": "8e8f0edcf43ed8b2db3ea1f16cbdcd615933a968"
+          }
+        },
+        {
+          "client_id": "819308907949-6cf065jcblh6cmfhl8tlhpr5s596ena8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNyFv_FwhCngdvxdH8GiRSKLi501c_3SY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "819308907949-6cf065jcblh6cmfhl8tlhpr5s596ena8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "819308907949-ss8qd0b2rr93hr3k28p5ajjqjb6fpirf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "bm.esra"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819308907949:android:ca2e897056dc29a71fe524",
+        "android_client_info": {
+          "package_name": "com.bm.vendor_app_only"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819308907949-6cf065jcblh6cmfhl8tlhpr5s596ena8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNyFv_FwhCngdvxdH8GiRSKLi501c_3SY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "819308907949-6cf065jcblh6cmfhl8tlhpr5s596ena8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "819308907949-ss8qd0b2rr93hr3k28p5ajjqjb6fpirf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "bm.esra"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

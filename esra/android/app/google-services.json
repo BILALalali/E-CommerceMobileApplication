@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "819308907949",
+    "project_id": "esra-aacb1",
+    "storage_bucket": "esra-aacb1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819308907949:android:6cb53dcef231cf641fe524",
+        "android_client_info": {
+          "package_name": "com.bm.esra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNyFv_FwhCngdvxdH8GiRSKLi501c_3SY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

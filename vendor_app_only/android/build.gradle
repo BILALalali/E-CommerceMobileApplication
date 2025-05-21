@@ -1,0 +1,34 @@
+// Root-level (project-level) Gradle file (<project>/build.gradle):
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // إضافة التبعيات الخاصة بـ Google services Gradle plugin
+        classpath 'com.google.gms:google-services:4.4.0' // يمكنك استخدام النسخة المناسبة لك
+
+        // إضافة التبعية الخاصة بـ Android Gradle Plugin
+        classpath 'com.android.tools.build:gradle:8.1.0' // استخدم الإصدار المناسب
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = "../build"
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
